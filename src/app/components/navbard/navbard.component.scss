@@ -3,9 +3,17 @@
   justify-content: space-between;
   width: 100%;
   padding: 40px;
-  background-color: beige;
+  background-color: transparent;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  color: white;
 }
 
 h1 {
   font-size: 2.5rem;
+  color: white;
+  text-shadow: 8px 8px 16px #a64a4a;
 }
