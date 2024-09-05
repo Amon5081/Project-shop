@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "navbard navbard navbard"
+    "main main main"
+    "filters shop shop";
+  height: 100vh;
+}
+
+.navbard-component {
+  width: 100%;
+  height: 100%;
+  grid-area: navbard;
+}
+
+.main-component {
+  width: 100%;
+  height: 100%;
+  grid-area: main;
+  padding: 20px;
+}
+
+.filter-component {
+  width: 100%;
+  height: 100%;
+  grid-area: filters;
+  padding: 20px;
+}
+
+.shop-component {
+  width: 100%;
+  height: 100%;
+  grid-area: shop;
+  padding: 20px;
+}
